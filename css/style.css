@@ -15,9 +15,8 @@ body {
     margin:auto;
 }
 
-p, h3, h4 {
-    text-align: center;
-
+h4{
+    font-size: 20px;
 }
 
 .header {
@@ -64,8 +63,25 @@ nav a:hover {
     background-color: #fff;
     border: 1px solid #504741;
     border-radius: 1%;
-
+    text-align: left;
+    padding: 5px;
 }
+
+.list{
+    list-style-type: none;
+}
+
+.list a {
+    display: block;
+    padding: 6px;
+    color: #504741;
+    line-height: 24px;
+}
+
+.box a:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 
 .asidesx {
 
