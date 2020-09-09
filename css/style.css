@@ -60,6 +60,12 @@ nav a:hover {
     clear: both;
 }
 
+.box {
+    background-color: #fff;
+    border: 1px solid #504741;
+    border-radius: 1%;
+
+}
 
 .asidesx {
 
