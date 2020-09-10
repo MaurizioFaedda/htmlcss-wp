@@ -7,7 +7,7 @@
 body {
 
     background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png);
-}
+    }
 
 #wrapper {
     width: 1200px;
@@ -15,8 +15,8 @@ body {
     margin:auto;
 }
 
-h4{
-    font-size: 20px;
+a {
+    text-decoration: none;
 }
 
 .header {
@@ -24,8 +24,16 @@ h4{
     margin-top: 10px;
     height: 300px;
     border: solid 20px #fff;
-}
+    }
 
+h1 {
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 260px;
+
+}
 nav {
     background-color: #504741;
     height: 50px;
@@ -92,7 +100,7 @@ nav a:hover {
 
 }
 
-.pages {
+.pages, .archives, .meta {
     background-color: #fff;
     height: auto;
     width: 100%;
@@ -100,19 +108,6 @@ nav a:hover {
 
 }
 
-.archives {
-    background-color: #fff;
-    height: auto;
-    width: 100%;
-    margin-top: 10px;
-}
-
-.meta {
-    background-color: #fff;
-    height: auto;
-    width: 100%;
-    margin-top: 10px;
-}
 
 .main {
     background-color: white;
@@ -165,8 +160,16 @@ nav a:hover {
     /* height: 200px; */
     margin-top: 10px;
     /* float: left; */
+    background-color: #fff;
+    border: 1px solid #504741;
+    border-radius: 1%;
+    text-align: left;
+    padding: 5px;
 }
 
+.f {
+    background-color: #fff;
+}
 .post {
 
     width: 25%;
@@ -201,9 +204,10 @@ nav a:hover {
 }
 
 .immagine {
-    background-color: brown;
+    background-image: url(https://uiaa-web.azureedge.net/wp-content/uploads/2017/11/RTM19-banner-web.jpg);
     width: 100%;
     height: 300px;
+    position: relative;
 }
 
 .credits div {
