@@ -159,7 +159,7 @@ nav a:hover {
     width: 100%;
     /* height: 200px; */
     margin-top: 10px;
-    /* float: left; */
+    float: left;
     background-color: #fff;
     border: 1px solid #504741;
     border-radius: 1%;
@@ -170,6 +170,7 @@ nav a:hover {
 .f {
     background-color: #fff;
 }
+
 .post {
 
     width: 25%;
